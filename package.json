@@ -1,0 +1,12 @@
+{
+  "name": "portfolio-simon-bedoya",
+  "version": "1.0.0",
+  "description": "Portafolio personal de Simón Bedoya",
+  "scripts": {
+    "dev": "tailwindcss -i ./src/input.css -o ./assets/css/style.css --watch",
+    "build": "tailwindcss -i ./src/input.css -o ./assets/css/style.css --minify"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.1"
+  }
+}
